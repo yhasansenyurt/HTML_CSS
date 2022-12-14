@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Selectors</title>
+
+    <style>
+        /* Tum H1leri seç */
+
+        /* h1{
+            color : red;
+            background-color: blue;
+        }
+        p{
+            color : red;
+            background: blue;
+        } */
+
+
+        /* h1,p{
+            color : red;
+            background: blue;
+        } */
+
+        /* ID ile seç.*/
+        #logo{
+            color: red;
+            background: blue;
+        }
+
+        /* CLASS ile seç*/
+        .info{
+            color: red;
+            background: yellow;
+        }
+
+        /*#logo, .lead İKİSİ BİRLİKTE*/
+
+        /*  hem idsi para1, hem classı lead-info olanlar*/
+        #para1.lead-info{
+            color: pink;
+        }
+
+        /* child*/
+        ul li a{
+            text-decoration: none;
+            background-color: aqua;
+        }
+
+        .info span{
+            color :purple;
+            
+        }
+
+        *  {
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Yazılım Bilimi</h1>
+    <h1 id="logo">Yazılım Bilimi 2</h1>
+    
+    <p class="info">Lorem ipsum <span>dolor</span> sit amet consectetur adipisicing elit. Quod tenetur quos eaque optio sint id! Quod iste provident, ab sequi ducimus tenetur sit temporibus explicabo, voluptas dolores similique magni dignissimos quibusdam vitae quia qui voluptate a ipsam vero harum? Dicta, laboriosam aliquid molestiae eligendi amet repudiandae? Mollitia, itaque tempora cumque ratione delectus quis illum id adipisci obcaecati eveniet omnis fugit odio, alias numquam. Quae cumque totam voluptates quas libero. Ipsum quia quos praesentium temporibus a laudantium quae quibusdam harum tempore necessitatibus odit, placeat, similique cupiditate accusantium, nobis aperiam molestiae! Amet quos dicta, neque in laborum quam voluptatum tempora placeat ipsam?</p>
+    <p id="para1" class="lead-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod tenetur quos eaque optio sint id! Quod iste provident, ab sequi ducimus tenetur sit temporibus explicabo, voluptas dolores similique magni dignissimos quibusdam vitae quia qui voluptate a ipsam vero harum? Dicta, laboriosam aliquid molestiae eligendi amet repudiandae? Mollitia, itaque tempora cumque ratione delectus quis illum id adipisci obcaecati eveniet omnis fugit odio, alias numquam. Quae cumque totam voluptates quas libero. Ipsum quia quos praesentium temporibus a laudantium quae quibusdam harum tempore necessitatibus odit, placeat, similique cupiditate accusantium, nobis aperiam molestiae! Amet quos dicta, neque in laborum quam voluptatum tempora placeat ipsam?</p>
+    <ul>
+        <li>
+            <a href="#">AK</a>
+        </li>
+    </ul>
+    
+    <!-- Unordered Lists-->
+    <ul>
+        <li>Front End</li>
+        <ul>
+            <li>React</li>
+            <li>Angular</li>
+        </ul>
+        <li>Back End</li>
+        <ul>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C#</li>
+        </ul>
+    </ul>
+
+
+    <!-- Ordered Lists-->
+
+    <ol type="a">
+        <li>Python</li>
+        <li>Java</li>
+        <li>Javascript</li>
+    </ol>
+</body>
+</html>

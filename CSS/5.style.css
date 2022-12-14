@@ -1,0 +1,29 @@
+#bir{
+    color: red;
+    background-color: rgb(255,255,0);
+    opacity: 0.6;
+    color: #28e9df;
+}
+
+.box-1 {
+    background-color: #28e9df;
+}
+
+.box-2 {
+    width: 400px;
+    height: 400px;
+    background-image: url(../images/dan.jpg);
+    background-size: cover;
+    color: white;
+    
+}
+
+body {
+    background: url(../images/puppy.jpg) no-repeat center center fixed;
+    /* background-image: url(../images/puppy.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: center center;
+    background-attachment: fixed; /* Resmi sabitler */
+
+}
